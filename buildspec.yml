@@ -16,6 +16,6 @@ phases:
       - echo Build completed on `date`
 artifacts:
   files:
-    - '/libs/*-SNAPSHOT.jar'
-    - '/distributions/*-boot-*-SNAPSHOT.zip'
-  base-directory: 'build'
+    - 'libs/*-SNAPSHOT.jar'
+    - 'distributions/KotlinCICDToEC2Demo-boot-0.0.1-SNAPSHOT.zip'
+  base-directory: 'build/'
