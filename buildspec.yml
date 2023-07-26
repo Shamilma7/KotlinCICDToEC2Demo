@@ -16,5 +16,6 @@ phases:
       - echo Build completed on `date`
 artifacts:
   files:
-    - '*-SNAPSHOT.jar'
-  base-directory: 'build/libs'
+    - '/libs/*-SNAPSHOT.jar'
+    - '/distributions/*-boot-*-SNAPSHOT.zip'
+  base-directory: 'build'

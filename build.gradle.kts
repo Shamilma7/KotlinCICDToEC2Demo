@@ -5,6 +5,7 @@ plugins {
     id("io.spring.dependency-management") version "1.1.2"
     kotlin("jvm") version "1.9.0"
     kotlin("plugin.spring") version "1.9.0"
+    application
 }
 
 group = "com.example"
@@ -30,6 +31,10 @@ tasks.withType<KotlinCompile> {
         freeCompilerArgs += "-Xjsr305=strict"
         jvmTarget = "17"
     }
+}
+
+application {
+    mainClass.set("com.example.kotlincicdtoec2demo.KotlinCicdToEc2DemoApplicationKt")
 }
 
 tasks.withType<Test> {
