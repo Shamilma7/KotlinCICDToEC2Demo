@@ -14,7 +14,7 @@ phases:
   post_build:
     commands:
       - echo Build completed on `date`
-  artifacts:
-    files:
-      - '*-SNAPSHOT.jar'
-    base-directory: 'build/libs'
+artifacts:
+  files:
+    - '*-SNAPSHOT.jar'
+  base-directory: 'build/libs'
