@@ -17,5 +17,5 @@ phases:
 artifacts:
   files:
     - 'libs/*-SNAPSHOT.jar'
-    - 'distributions/KotlinCICDToEC2Demo-boot-0.0.1-SNAPSHOT.zip'
+    - 'distributions/*-boot-*.zip'
   base-directory: 'build/'
