@@ -16,6 +16,6 @@ phases:
       - echo Build completed on `date`
 artifacts:
   files:
-    - 'libs/*-SNAPSHOT.jar'
-    - 'distributions/*-boot-*.zip'
-  base-directory: 'build/'
+    - 'build/libs/*-SNAPSHOT.jar'
+    - 'build/distributions/*-boot-*.zip'
+    - 'appspec.yml'
