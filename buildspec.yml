@@ -17,5 +17,6 @@ phases:
 artifacts:
   files:
     - 'build/libs/*-SNAPSHOT.jar'
-    - 'build/distributions/*-boot-*.zip'
+    - 'scripts/*.sh'
     - 'appspec.yml'
+  discard-paths: yes

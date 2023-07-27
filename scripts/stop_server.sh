@@ -1,5 +1,5 @@
 #!/bin/bash
 
-echo "Killing process on port 8000"
-kill -9 $(lsof -t -i:8000)
-echo "Done killing the process on port 8000"
+echo "Kill all java processes"
+sudo pkill -f 'java -jar'
+echo "Done killing all java processes"
