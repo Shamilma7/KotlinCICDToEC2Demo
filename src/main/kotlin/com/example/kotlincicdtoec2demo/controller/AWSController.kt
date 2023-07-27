@@ -11,4 +11,9 @@ class AWSController {
     fun helloAWS(): ResponseEntity<String> {
         return ResponseEntity.ok("Hello world!")
     }
+
+    @GetMapping("/isAlive")
+    fun isAlive(): ResponseEntity<String> {
+        return ResponseEntity.ok("Hello!! I AM ALIVEEEE!")
+    }
 }
