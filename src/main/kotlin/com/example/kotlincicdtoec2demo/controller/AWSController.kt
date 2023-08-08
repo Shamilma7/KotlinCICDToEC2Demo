@@ -20,7 +20,7 @@ class AWSController {
 
     @GetMapping("/isAlive")
     fun isAlive(): ResponseEntity<String> {
-        return ResponseEntity.ok("Hello!! I AM ALIVEEEE!")
+        return ResponseEntity.ok("Hello! This endpoint got updated and so it should be updated calling through api gateway also")
     }
 
     @GetMapping("/teachers")
